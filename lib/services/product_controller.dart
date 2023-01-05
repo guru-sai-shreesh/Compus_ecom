@@ -16,6 +16,7 @@ class ProductsController extends GetxController {
     loading(true);
     products =
         welcomeFromJson(await ProductsRepository().loadProductsFromApi());
+    print("1");
     loading(false);
   }
 }

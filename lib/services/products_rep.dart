@@ -6,6 +6,7 @@ class ProductsRepository {
 
   loadProductsFromApi() async {
     var response = await http.get(Uri.parse(url));
+    print("10");
     return response.body;
   }
 }
