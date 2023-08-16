@@ -92,16 +92,16 @@ class _CartViewState extends State<CartView> {
               margin: EdgeInsets.only(left: 15, right: 15, bottom: 14),
               height: 42,
               color: Colors.transparent,
-              child: FlatButton(
-                  color: Colors.white,
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(15)),
+              child: OutlinedButton(
+                  // color: Colors.white,
+                  // shape: RoundedRectangleBorder(
+                  //     borderRadius: BorderRadius.circular(15)),
                   onPressed: (() {
                     // Navigator.of(context).push(
                     //     MaterialPageRoute(builder: (context) => Payment()));
                     openCheckout();
                   }),
-                  minWidth: MediaQuery.of(context).size.width - 50,
+                  // minWidth: MediaQuery.of(context).size.width - 50,
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [

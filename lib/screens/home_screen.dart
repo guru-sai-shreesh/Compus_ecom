@@ -190,22 +190,22 @@ class _HomeViewState extends State<HomeView> {
                                     ),
                                   ),
                                   Center(
-                                      child: FlatButton(
-                                          height: 35,
-                                          color: Colors.grey[300],
-                                          shape: RoundedRectangleBorder(
-                                              borderRadius:
-                                                  BorderRadius.circular(10)),
+                                      child: TextButton(
+                                          // height: 35,
+                                          // color: Colors.grey[300],
+                                          // shape: RoundedRectangleBorder(
+                                          //     borderRadius:
+                                          //         BorderRadius.circular(10)),
                                           onPressed: () {
                                             cart.add_item(productsController
                                                 .products[index]);
                                             setState(() {});
                                           },
-                                          minWidth: MediaQuery.of(context)
-                                                      .size
-                                                      .width *
-                                                  0.5 -
-                                              100,
+                                          // minWidth: MediaQuery.of(context)
+                                          //             .size
+                                          //             .width *
+                                          //         0.5 -
+                                          //     100,
                                           child: Row(
                                             mainAxisAlignment:
                                                 MainAxisAlignment.center,
